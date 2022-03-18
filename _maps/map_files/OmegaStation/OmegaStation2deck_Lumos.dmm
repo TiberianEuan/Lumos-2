@@ -157,9 +157,6 @@
 /area/ruin/space/has_grav/oldomega/OldEngi)
 "aH" = (
 /obj/structure/dresser,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 32
-	},
 /turf/open/floor/carpet,
 /area/commons/dorms)
 "aJ" = (
@@ -204,7 +201,6 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 8
 	},
-/obj/structure/closet/wardrobe/cargotech,
 /turf/open/floor/plasteel/dark,
 /area/cargo/storage)
 "aQ" = (
@@ -612,7 +608,6 @@
 	dir = 6
 	},
 /obj/item/kirbyplants/photosynthetic,
-/obj/structure/table,
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "cs" = (
@@ -2289,13 +2284,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/asteroid/nearstation)
-"jn" = (
-/obj/structure/dresser,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/grimy,
-/area/commons/dorms)
 "jo" = (
 /obj/structure/cable/white{
 	icon_state = "1-2"
@@ -2632,6 +2620,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/cargo/storage)
+"kz" = (
+/obj/machinery/vending/snack/random,
+/turf/open/floor/plasteel,
+/area/commons/dorms)
 "kA" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating{
@@ -3358,7 +3350,6 @@
 	c_tag = "Departure Lounge - Port Aft";
 	dir = 4
 	},
-/obj/structure/table,
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "nL" = (
@@ -4601,7 +4592,6 @@
 /turf/closed/wall,
 /area/commons/dorms)
 "sp" = (
-/obj/machinery/disposal/bin,
 /obj/structure/railing/corner{
 	dir = 1
 	},
@@ -4892,6 +4882,11 @@
 	},
 /turf/open/space/basic,
 /area/space/nearstation)
+"tr" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/structure/closet/wardrobe/cargotech,
+/turf/open/floor/plasteel/dark,
+/area/cargo/storage)
 "tA" = (
 /obj/structure/mecha_wreckage/ripley/firefighter,
 /obj/effect/decal/cleanable/dirt,
@@ -6133,6 +6128,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/service/hydroponics)
+"yK" = (
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_x = -31
+	},
+/turf/open/floor/plasteel,
+/area/commons/dorms)
 "yM" = (
 /obj/structure/cable/white,
 /turf/closed/wall/r_wall,
@@ -6851,7 +6852,6 @@
 /obj/item/kirbyplants{
 	icon_state = "plant-05"
 	},
-/obj/structure/table,
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "Bt" = (
@@ -8580,7 +8580,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
-/obj/machinery/vending/cola/random,
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "IF" = (
@@ -8742,9 +8741,6 @@
 /area/ruin/space/has_grav/oldomega/OldEngi)
 "Jk" = (
 /obj/structure/dresser,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = -32
-	},
 /turf/open/floor/plasteel/grimy,
 /area/commons/dorms)
 "Jm" = (
@@ -8755,7 +8751,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/table,
 /obj/item/kirbyplants,
 /turf/open/floor/plasteel,
 /area/commons/dorms)
@@ -9319,7 +9314,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/table,
 /obj/item/kirbyplants{
 	icon_state = "plant-05"
 	},
@@ -10444,7 +10438,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/closed/wall/rust,
+/obj/machinery/door/airlock/maintenance{
+	name = "Cargo Bay Maintenance";
+	req_access_txt = "31"
+	},
+/turf/open/floor/plating,
 /area/cargo/storage)
 "QR" = (
 /turf/closed/mineral/random/labormineral,
@@ -10810,9 +10808,6 @@
 /area/hallway/secondary/exit/departure_lounge)
 "Sp" = (
 /obj/structure/dresser,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = -32
-	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
 	},
@@ -12100,6 +12095,19 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/oldomega/HigherHall)
+"Yf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/effect/turf_decal/delivery,
+/obj/structure/sign/warning{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel,
+/area/commons/dorms)
 "Yh" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
@@ -48662,7 +48670,7 @@ sH
 jX
 EE
 vO
-AG
+yK
 AG
 lz
 so
@@ -48675,7 +48683,7 @@ nK
 LU
 zi
 Xk
-zi
+Yf
 IE
 FL
 QR
@@ -48913,7 +48921,7 @@ QR
 QR
 QR
 FL
-jn
+Jk
 xb
 so
 kW
@@ -49684,14 +49692,14 @@ QR
 QR
 QR
 FL
-jn
+Jk
 xt
 so
 Yh
 pT
 AG
 nC
-AG
+kz
 BN
 FL
 Td
@@ -50455,7 +50463,7 @@ QR
 QR
 QR
 FL
-jn
+Jk
 wt
 so
 DP
@@ -58662,7 +58670,7 @@ Ep
 Wk
 lq
 fL
-Eo
+tr
 ew
 ew
 ew

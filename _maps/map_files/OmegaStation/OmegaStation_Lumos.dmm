@@ -14731,13 +14731,6 @@
 /obj/item/clothing/under/costume/maid,
 /turf/open/floor/plasteel/grimy,
 /area/commons/dorms)
-"axI" = (
-/obj/structure/dresser,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/grimy,
-/area/commons/dorms)
 "axJ" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/item/clothing/suit/jacket{
@@ -14757,9 +14750,6 @@
 /area/commons/dorms)
 "axK" = (
 /obj/structure/dresser,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 32
-	},
 /turf/open/floor/carpet,
 /area/commons/dorms)
 "axL" = (
@@ -15798,6 +15788,9 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
+	},
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_x = 32
 	},
 /turf/open/floor/plasteel,
 /area/commons/dorms)
@@ -18798,9 +18791,6 @@
 /area/commons/dorms)
 "aEP" = (
 /obj/structure/dresser,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = -32
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
@@ -18821,9 +18811,6 @@
 /area/commons/dorms)
 "aER" = (
 /obj/structure/dresser,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = -32
-	},
 /turf/open/floor/plasteel/grimy,
 /area/commons/dorms)
 "aES" = (
@@ -33938,7 +33925,6 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
-/obj/effect/turf_decal/tile/purple,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "bfh" = (
@@ -44010,21 +43996,10 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "htS" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/machinery/door/airlock{
-	name = "Custodial Closet";
-	req_access_txt = "26"
-	},
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/closed/wall,
 /area/service/janitor)
 "huO" = (
 /obj/structure/disposalpipe/segment{
@@ -46261,10 +46236,6 @@
 "myt" = (
 /turf/open/floor/plasteel/dark,
 /area/cargo/storage)
-"mzf" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space)
 "mAf" = (
 /obj/machinery/atmospherics/pipe/simple/multiz,
 /turf/open/floor/plating,
@@ -47742,10 +47713,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
-"qeX" = (
-/obj/structure/lattice,
-/turf/closed/wall/r_wall,
-/area/maintenance/starboard)
 "qgv" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -50928,8 +50895,8 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/security/prison)
 "tFg" = (
-/obj/structure/lattice,
-/turf/open/floor/plating/asteroid/airless,
+/obj/structure/sign/warning/securearea,
+/turf/closed/wall/r_wall,
 /area/space/nearstation)
 "tFk" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
@@ -90981,7 +90948,7 @@ atS
 auW
 awb
 awQ
-axI
+aER
 adZ
 awQ
 epI
@@ -98402,8 +98369,8 @@ aad
 aad
 aac
 aac
-uMH
-uMH
+aad
+aad
 bmT
 aad
 aad
@@ -98659,8 +98626,8 @@ aad
 aad
 aac
 aad
-uMH
-uMH
+aad
+aad
 aad
 aco
 aco
@@ -100248,7 +100215,7 @@ mci
 vxx
 mil
 vxx
-mzf
+sdX
 bte
 aPB
 aQC
@@ -100762,7 +100729,7 @@ eTu
 lIu
 cRz
 aLC
-mzf
+sdX
 bte
 aPz
 aPz
@@ -101048,9 +101015,9 @@ boI
 bnm
 aad
 aad
-aad
-bmT
-aad
+aac
+aac
+aac
 aad
 aad
 aad
@@ -101260,7 +101227,7 @@ vPt
 abt
 bvh
 sBx
-qeX
+vxx
 aad
 aad
 vxx
@@ -101517,7 +101484,7 @@ amD
 amC
 jRB
 sBy
-qeX
+vxx
 aac
 aad
 mci
