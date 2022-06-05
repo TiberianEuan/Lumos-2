@@ -24,8 +24,3 @@
 	allowed_limb_ids = list("insect","apid","moth","moth_not_greyscale")
 
 	eye_type = "insect"
-
-/datum/species/insect/check_weakness(obj/item/weapon, mob/living/attacker)
-	if(istype(weapon, /obj/item/melee/flyswatter))
-		return 19 //flyswatters deal 20x damage to insect people (Lumos change)
-	return 0
