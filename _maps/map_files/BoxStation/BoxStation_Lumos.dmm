@@ -22014,6 +22014,7 @@
 	id = "robotics";
 	name = "robotics lab shutters"
 	},
+/obj/machinery/door/firedoor/heavy,
 /turf/open/floor/plating,
 /area/science/robotics/lab)
 "bhA" = (
@@ -22047,6 +22048,7 @@
 	name = "research lab shutters"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/door/firedoor/heavy,
 /turf/open/floor/plating,
 /area/science/lab)
 "bhE" = (
@@ -22366,6 +22368,7 @@
 /turf/open/floor/circuit,
 /area/science/robotics/mechbay)
 "biL" = (
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "biN" = (
@@ -22952,6 +22955,7 @@
 /obj/effect/turf_decal/tile/purple/half{
 	dir = 4
 	},
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "bkp" = (
@@ -23358,23 +23362,12 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/science/robotics/lab)
-"blB" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/obj/machinery/mecha_part_fabricator,
-/turf/open/floor/plasteel,
-/area/science/robotics/lab)
 "blC" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "blE" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
 /obj/structure/table,
 /obj/item/stack/sheet/plasteel{
 	amount = 10;
@@ -23414,9 +23407,6 @@
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
 "blF" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "robo1"
@@ -23429,6 +23419,9 @@
 "blG" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
@@ -23911,9 +23904,6 @@
 /turf/open/floor/plasteel/white,
 /area/science/lab)
 "bni" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
 /obj/structure/table,
 /obj/item/storage/toolbox/electrical{
 	pixel_x = 1;
@@ -24887,7 +24877,6 @@
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "bqd" = (
-/obj/effect/turf_decal/stripes/line,
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "robo2"
@@ -25306,6 +25295,7 @@
 	},
 /obj/item/folder/white,
 /obj/item/pen,
+/obj/machinery/door/firedoor/heavy,
 /turf/open/floor/plating,
 /area/science/robotics/lab)
 "brt" = (
@@ -25629,6 +25619,7 @@
 	name = "Robotics Lab";
 	req_access_txt = "29"
 	},
+/obj/machinery/door/firedoor/heavy,
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "bsy" = (
@@ -25807,6 +25798,9 @@
 /area/science/robotics/lab)
 "bsT" = (
 /obj/machinery/light,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "bsU" = (
@@ -25835,6 +25829,9 @@
 /area/cargo/office)
 "bsW" = (
 /obj/machinery/vending/wardrobe/robo_wardrobe,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "bsX" = (
@@ -41037,11 +41034,11 @@
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
 "ciE" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/science/lab)
@@ -46625,23 +46622,17 @@
 	id = "robo1"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "cHP" = (
+/obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1
+	dir = 4
 	},
-/obj/structure/table,
-/obj/item/storage/belt/utility,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/glass{
-	amount = 20;
-	pixel_x = -3;
-	pixel_y = 6
-	},
-/turf/open/floor/plasteel,
+/turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "cHQ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
@@ -46663,9 +46654,6 @@
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
 "cHS" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
 /obj/effect/landmark/start/roboticist,
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
@@ -46690,12 +46678,12 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "cHW" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
 /obj/machinery/mecha_part_fabricator,
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
@@ -46731,12 +46719,12 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "cIb" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "robo2"
@@ -46747,14 +46735,10 @@
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
 "cIc" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/bot,
-/obj/effect/landmark/start/cyborg,
-/turf/open/floor/plasteel,
-/area/science/robotics/lab)
-"cId" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "cIe" = (
 /obj/structure/window/reinforced{
@@ -53422,7 +53406,7 @@
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
 "mJo" = (
-/obj/structure/girder,
+/obj/structure/girder/displaced,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "mJz" = (
@@ -56937,6 +56921,9 @@
 /obj/machinery/light_switch{
 	pixel_y = -25
 	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "svE" = (
@@ -57932,6 +57919,9 @@
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -24
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
@@ -60060,6 +60050,7 @@
 /area/security/office)
 "wWT" = (
 /obj/effect/landmark/start/roboticist,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "wWW" = (
@@ -104944,10 +104935,10 @@ bds
 ptM
 gMy
 kvl
-kvl
+blC
 cHO
 blG
-kvl
+cHP
 cHV
 cIa
 stF
@@ -105202,7 +105193,7 @@ bfV
 bhw
 cHM
 wWT
-blB
+cHW
 blF
 cHS
 cHW
@@ -105459,7 +105450,7 @@ bfV
 bfV
 biO
 biL
-cHP
+bpT
 cHR
 bou
 bpT
@@ -105720,8 +105711,8 @@ bni
 blM
 bou
 cHX
+blM
 cIc
-biL
 buj
 btQ
 bve
@@ -105973,12 +105964,12 @@ bfX
 bhz
 biQ
 biL
-blC
+bou
 bou
 cHT
 bou
-cId
-biL
+bou
+cIc
 bsw
 gOB
 bus
@@ -106234,7 +106225,7 @@ blE
 bnj
 bov
 bpU
-cId
+bou
 bsW
 buj
 bvE
