@@ -8219,6 +8219,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/plasteel/dark,
 /area/commons/dorms)
 "avz" = (
@@ -110085,7 +110086,7 @@ aPq
 kOS
 bky
 bqh
-bZi
+bky
 bky
 kNf
 fzX
@@ -110599,7 +110600,7 @@ aPq
 tvB
 bky
 blR
-bZi
+bky
 bky
 kTo
 fzX
