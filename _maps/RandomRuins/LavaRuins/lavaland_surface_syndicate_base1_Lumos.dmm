@@ -170,9 +170,9 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/chemistry)
 "at" = (
-/obj/machinery/door/poddoor/preopen{
+/obj/machinery/door/poddoor{
 	id = "lavasyndi_chemistry";
-	name = "Chemistry Blast Door"
+	name = "Chemistry blast door"
 	},
 /obj/structure/grille,
 /obj/structure/window/plastitanium,
@@ -418,8 +418,7 @@
 "aY" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
 	dir = 1;
-	external_pressure_bound = 120;
-	name = "server vent"
+	external_pressure_bound = 120
 	},
 /turf/open/floor/circuit/red/anim,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/xenobiology)
@@ -496,7 +495,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1;
 	external_pressure_bound = 140;
-	name = "server vent";
 	pressure_checks = 0
 	},
 /turf/open/floor/circuit/red/anim,
@@ -900,7 +898,7 @@
 	dir = 4
 	},
 /obj/machinery/mineral/equipment_vendor/golem{
-	name = "Mining quipment vendor"
+	name = "Mining equipment vendor"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/cargo)
@@ -1137,10 +1135,10 @@
 /area/ruin/lavaland/unpowered/syndicate_lava_base/cargo)
 "eG" = (
 /obj/structure/bed,
-/obj/item/bedsheet,
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/item/bedsheet/red,
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/virology)
 "eH" = (
@@ -1660,7 +1658,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
-/obj/machinery/door/airlock/external/glass{
+/obj/machinery/door/airlock/external{
 	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/dark,
@@ -1683,7 +1681,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
-/obj/machinery/door/airlock/external/glass{
+/obj/machinery/door/airlock/external{
 	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/dark,
@@ -1711,9 +1709,11 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
-/obj/machinery/power/smes/engineering,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 6
+	},
+/obj/machinery/power/smes{
+	charge = 5e+006
 	},
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/engineering)
@@ -1771,7 +1771,8 @@
 /obj/machinery/button/door{
 	id = "lavasyndi_slimekill";
 	name = "Kill Room Bolt Control";
-	pixel_x = 26
+	pixel_x = 26;
+	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/xenobiology)
@@ -1886,7 +1887,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/door/airlock/external/glass{
+/obj/machinery/door/airlock/external{
 	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/dark,
@@ -2214,7 +2215,7 @@
 "hw" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/door/airlock/external/glass{
+/obj/machinery/door/airlock/external{
 	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/dark,
@@ -2264,9 +2265,9 @@
 /turf/closed/wall/mineral/plastitanium/explosive,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/cargo)
 "hD" = (
-/obj/machinery/door/poddoor/preopen{
+/obj/machinery/door/poddoor/ert{
 	id = "lavasyndi_cargo";
-	name = "Cargo Blast Door"
+	name = "Cargo blast door"
 	},
 /obj/structure/grille,
 /obj/structure/window/plastitanium,
@@ -2290,9 +2291,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/cargo)
 "hH" = (
-/obj/machinery/door/poddoor/preopen{
+/obj/machinery/door/poddoor{
 	id = "lavasyndi_virology";
-	name = "Virology Blast Door"
+	name = "Virology blast door"
 	},
 /obj/structure/grille,
 /obj/structure/window/plastitanium,
@@ -2369,6 +2370,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/item/crowbar/large/heavy,
 /turf/open/floor/plasteel/grimy,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/dormitories)
 "hQ" = (
@@ -2440,7 +2442,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
-/obj/machinery/door/airlock/external/glass{
+/obj/machinery/door/airlock/external{
 	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/dark,
@@ -2485,9 +2487,9 @@
 /turf/open/floor/plasteel/grimy,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/dormitories)
 "id" = (
-/obj/structure/mirror/magic/lesser,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/lavaland/unpowered/syndicate_lava_base/dormitories)
+/obj/item/ammo_box/magazine/sniper_rounds/penetrator,
+/turf/open/floor/engine,
+/area/ruin/lavaland/unpowered/syndicate_lava_base/xenobiology)
 "ie" = (
 /obj/machinery/doorButtons/access_button{
 	idDoor = "lavaland_syndie_virology_interior";
@@ -2572,14 +2574,15 @@
 "ir" = (
 /obj/machinery/turretid{
 	ailock = 1;
-	control_area = "/area/ruin/unpowered/syndicate_lava_base/main";
+	control_area = "/area/ruin/lavaland/unpowered/syndicate_lava_base/main";
 	dir = 1;
 	icon_state = "control_kill";
 	lethal = 1;
 	name = "Base turret controls";
 	pixel_y = 30;
 	req_access = null;
-	req_access_txt = "150"
+	req_access_txt = "150";
+	shoot_cyborgs = 1
 	},
 /turf/open/floor/circuit/red/anim,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/main)
@@ -2591,7 +2594,7 @@
 /area/ruin/lavaland/unpowered/syndicate_lava_base/main)
 "it" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/machinery/door/airlock/external/glass{
+/obj/machinery/door/airlock/external{
 	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/dark,
@@ -2605,7 +2608,7 @@
 	baseturfs = /turf/open/lava/smooth/lava_land_surface;
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors)
+/area/ruin/lavaland/unpowered/syndicate_lava_base/bar)
 "iv" = (
 /obj/machinery/airalarm/syndicate{
 	dir = 4;
@@ -2914,14 +2917,15 @@
 /area/ruin/lavaland/unpowered/syndicate_lava_base/main)
 "jf" = (
 /obj/structure/table/wood,
-/obj/item/ammo_box/magazine/m10mm,
-/obj/item/ammo_box/magazine/sniper_rounds,
 /obj/machinery/airalarm/syndicate{
 	pixel_y = 24
 	},
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/item/crowbar/large/heavy,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/sniper_rounds,
 /turf/open/floor/plasteel/grimy,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/dormitories)
 "jg" = (
@@ -3038,9 +3042,9 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/main)
 "jx" = (
-/obj/machinery/door/poddoor/preopen{
+/obj/machinery/door/poddoor{
 	id = "lavasyndi_bar";
-	name = "Bar Blast Door"
+	name = "Bar blast door"
 	},
 /obj/structure/grille,
 /obj/structure/window/plastitanium,
@@ -3076,11 +3080,12 @@
 /area/ruin/lavaland/unpowered/syndicate_lava_base/main)
 "jC" = (
 /obj/structure/table/wood,
-/obj/item/ammo_box/magazine/m10mm,
-/obj/item/ammo_box/magazine/sniper_rounds,
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/item/crowbar/large/heavy,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/sniper_rounds,
 /turf/open/floor/plasteel/grimy,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/dormitories)
 "jD" = (
@@ -3171,6 +3176,9 @@
 	},
 /obj/machinery/light/small{
 	dir = 8
+	},
+/obj/structure/mirror/magic/lesser{
+	pixel_x = 24
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/dormitories)
@@ -3478,9 +3486,11 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/smes/engineering,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 10
+	},
+/obj/machinery/power/smes{
+	charge = 5e+006
 	},
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/engineering)
@@ -4034,7 +4044,7 @@
 /area/ruin/lavaland/unpowered/syndicate_lava_base/engineering)
 "lT" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/machinery/door/airlock/external/glass{
+/obj/machinery/door/airlock/external{
 	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/dark,
@@ -4145,11 +4155,12 @@
 /area/ruin/lavaland/unpowered/syndicate_lava_base/bar)
 "md" = (
 /obj/structure/table/wood,
-/obj/item/ammo_box/magazine/m10mm,
-/obj/item/ammo_box/magazine/sniper_rounds,
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/item/crowbar/large/heavy,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/sniper_rounds,
 /turf/open/floor/plasteel/grimy,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/dormitories)
 "me" = (
@@ -4223,9 +4234,9 @@
 /turf/open/floor/engine/o2,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/engineering)
 "mp" = (
-/obj/machinery/door/poddoor/preopen{
+/obj/machinery/door/poddoor{
 	id = "lavasyndi_telecomms";
-	name = "Telecomms Blast Door"
+	name = "Telecomms blast door"
 	},
 /obj/structure/grille,
 /obj/structure/window/plastitanium,
@@ -4750,10 +4761,10 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/effect/mapping_helpers/airlock/locked,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/machinery/door/airlock/atmos{
-	name = "Turbine interior airlock";
+/obj/machinery/door/airlock/atmos/glass{
+	id_tag = "syndicatelava_airlock_interior";
+	name = "Turbine Interior Airlock";
 	req_access_txt = "150"
 	},
 /turf/open/floor/engine,
@@ -5155,12 +5166,12 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/effect/mapping_helpers/airlock/locked,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
-/obj/machinery/door/airlock/atmos{
-	name = "Turbine exterior airlock";
+/obj/machinery/door/airlock/atmos/glass{
+	id_tag = "syndicatelava_airlock_exterior";
+	name = "Turbine Exterior Airlock";
 	req_access_txt = "150"
 	},
 /turf/open/floor/engine,
@@ -5287,7 +5298,6 @@
 /area/ruin/lavaland/unpowered/syndicate_lava_base/arrivals)
 "oZ" = (
 /obj/machinery/nanite_programmer,
-/obj/item/storage/box/disks_nanite,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/circuits)
 "pc" = (
@@ -5429,6 +5439,7 @@
 	pixel_x = 1
 	},
 /obj/item/integrated_electronics/wirer,
+/obj/item/storage/box/disks_nanite,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/circuits)
 "tg" = (
@@ -5447,6 +5458,11 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/telecomms)
+"tG" = (
+/obj/structure/closet/secure_closet/personal/patient,
+/obj/item/toy/figure/syndie,
+/turf/open/floor/plasteel/dark,
+/area/ruin/lavaland/unpowered/syndicate_lava_base/virology)
 "tW" = (
 /turf/open/floor/wood/wood_tiled,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/bar)
@@ -5575,6 +5591,9 @@
 /obj/item/seeds/kudzu{
 	pixel_y = 3
 	},
+/obj/item/seeds/syndieseeds{
+	pixel_x = -3
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/hydroponics)
 "ze" = (
@@ -5668,7 +5687,6 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -28
 	},
-/obj/item/storage/box/disks_nanite,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/circuits)
 "BZ" = (
@@ -5735,7 +5753,9 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/hydroponics)
 "Gc" = (
-/obj/structure/frame/machine,
+/obj/structure/frame/machine{
+	anchored = 1
+	},
 /turf/open/floor/plasteel,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/circuits)
 "Gh" = (
@@ -5768,7 +5788,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
-/obj/machinery/door/airlock/external/glass{
+/obj/machinery/door/airlock/external{
 	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/dark,
@@ -6099,9 +6119,9 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/hydroponics)
 "QZ" = (
-/obj/machinery/door/poddoor/preopen{
+/obj/machinery/door/poddoor/ert{
 	id = "lavasyndi_research";
-	name = "Research Lab Blast Door"
+	name = "Research blast door"
 	},
 /obj/structure/grille,
 /obj/structure/window/plastitanium,
@@ -6183,9 +6203,9 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/arrivals)
 "SA" = (
-/obj/machinery/door/poddoor/preopen{
+/obj/machinery/door/poddoor/ert{
 	id = "lavasyndi_hydro";
-	name = "Hydroponics Blast Door"
+	name = "Hydroponics blast door"
 	},
 /obj/structure/grille,
 /obj/structure/window/plastitanium,
@@ -6223,7 +6243,9 @@
 /obj/machinery/airalarm/syndicate{
 	pixel_y = 24
 	},
-/obj/structure/frame/computer,
+/obj/structure/frame/computer{
+	anchored = 1
+	},
 /turf/open/floor/plasteel,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/circuits)
 "TP" = (
@@ -6290,7 +6312,7 @@
 "VU" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/door/airlock/external/glass{
+/obj/machinery/door/airlock/external{
 	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/dark,
@@ -7089,7 +7111,7 @@ ab
 ab
 ab
 fx
-fw
+tG
 fz
 eI
 hV
@@ -7255,7 +7277,7 @@ aI
 rk
 UZ
 UZ
-UZ
+id
 fx
 fw
 fz
@@ -8272,7 +8294,7 @@ gH
 hh
 hz
 hz
-id
+hz
 hz
 iC
 iV
