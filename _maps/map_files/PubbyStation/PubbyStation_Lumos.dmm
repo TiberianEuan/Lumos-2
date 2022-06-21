@@ -14583,6 +14583,9 @@
 	pixel_x = -3;
 	pixel_y = -3
 	},
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aMY" = (
@@ -14616,9 +14619,6 @@
 /area/hallway/primary/central)
 "aNa" = (
 /obj/machinery/vending/snack/teal,
-/obj/machinery/light/small{
-	dir = 4
-	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aNc" = (
@@ -15081,7 +15081,6 @@
 /obj/item/storage/toolbox/artistic{
 	pixel_x = -3
 	},
-/obj/machinery/light/small,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aOv" = (
@@ -18319,10 +18318,6 @@
 	icon_state = "1-8"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/machinery/light_switch{
-	pixel_x = 24;
-	pixel_y = 24
-	},
 /obj/structure/mirror{
 	pixel_x = 28;
 	pixel_y = -2
@@ -18623,6 +18618,9 @@
 /obj/effect/turf_decal/tile/red/checker,
 /obj/effect/turf_decal/tile/blue/checker{
 	dir = 4
+	},
+/obj/machinery/light_switch{
+	pixel_x = -24
 	},
 /turf/open/floor/plasteel,
 /area/service/theater)
@@ -21000,10 +20998,6 @@
 	dir = 4;
 	pixel_x = 11
 	},
-/obj/machinery/light_switch{
-	dir = 9;
-	pixel_x = 22
-	},
 /turf/open/floor/plasteel,
 /area/service/janitor)
 "bdj" = (
@@ -21830,14 +21824,10 @@
 /turf/open/floor/plasteel,
 /area/service/hydroponics)
 "bfp" = (
-/obj/machinery/button/door{
-	id = "kitchenwindowshutters";
-	name = "Kitchen Window Shutters Control";
-	pixel_x = -26;
-	pixel_y = 5;
-	req_access_txt = "28"
-	},
 /obj/item/kirbyplants/random,
+/obj/machinery/light_switch{
+	pixel_x = -24
+	},
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "bfr" = (
@@ -33780,7 +33770,7 @@
 /obj/machinery/button/door{
 	id = "patientB";
 	name = "Privacy Shutters";
-	pixel_y = 25
+	pixel_y = 26
 	},
 /turf/open/floor/plasteel/freezer,
 /area/medical/medbay/central)
@@ -33804,8 +33794,7 @@
 /area/medical/medbay/central)
 "bKy" = (
 /obj/machinery/door/airlock/medical{
-	name = "Patient Room";
-	req_access_txt = "5"
+	name = "Patient Room"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -34240,9 +34229,6 @@
 "bLG" = (
 /obj/structure/chair/office/light{
 	dir = 8
-	},
-/obj/machinery/light_switch{
-	pixel_y = -24
 	},
 /turf/open/floor/plasteel/freezer,
 /area/medical/medbay/central)
@@ -43670,13 +43656,16 @@
 /obj/machinery/button/door{
 	id = "kitchenshutters";
 	name = "Kitchen Shutters Control";
-	pixel_x = 5;
+	pixel_x = 6;
 	pixel_y = -24;
 	req_access_txt = "28"
 	},
-/obj/machinery/light_switch{
+/obj/machinery/button/door{
+	id = "kitchenwindowshutters";
+	name = "Kitchen Window Shutters Control";
 	pixel_x = -6;
-	pixel_y = -24
+	pixel_y = -24;
+	req_access_txt = "28"
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
@@ -47232,6 +47221,16 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/science)
+"evs" = (
+/obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 8
+	},
+/obj/machinery/light_switch{
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel,
+/area/service/hydroponics)
 "evV" = (
 /obj/machinery/holopad,
 /turf/open/floor/plasteel,
@@ -54128,6 +54127,9 @@
 /obj/item/reagent_containers/food/snacks/friedegg,
 /obj/item/kitchen/fork{
 	pixel_x = -8
+	},
+/obj/machinery/light/small{
+	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
@@ -85362,7 +85364,7 @@ aYN
 aZR
 aYN
 aYN
-aYN
+evs
 aXQ
 bfj
 bdm
