@@ -204,13 +204,6 @@
 /obj/structure/closet/emcloset,
 /turf/open/floor/plasteel,
 /area/science)
-"bn" = (
-/obj/structure/closet/secure_closet/atmospherics,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/engineering/atmos)
 "bo" = (
 /turf/closed/wall/r_wall,
 /area/science/misc_lab)
@@ -382,6 +375,7 @@
 	req_access_txt = "24"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "cF" = (
@@ -431,10 +425,9 @@
 /turf/open/floor/plasteel/white,
 /area/science/circuit)
 "cO" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/turf/open/floor/plating,
-/area/maintenance/department/science)
+/obj/structure/sign/warning/securearea,
+/turf/closed/wall/r_wall,
+/area/engineering/atmos)
 "cQ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
 	external_pressure_bound = 120;
@@ -454,8 +447,8 @@
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "cU" = (
-/obj/structure/cable{
-	icon_state = "0-8"
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 5
 	},
 /turf/open/floor/plating,
 /area/engineering/atmos)
@@ -467,7 +460,7 @@
 /area/maintenance/department/science)
 "cY" = (
 /obj/structure/railing/corner,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating,
 /area/engineering/atmos)
 "da" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -1088,6 +1081,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
 /area/mine/eva)
 "fk" = (
@@ -1550,13 +1544,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/circuit)
-"hj" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/engineering/atmos)
 "hk" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -1687,6 +1674,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/effect/turf_decal/stripes/box,
 /turf/open/floor/plating,
 /area/maintenance/bar)
 "hY" = (
@@ -1741,9 +1729,10 @@
 /obj/structure/railing/corner{
 	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/machinery/power/apc/auto_name/south{
+	name = "Atmospherics Lower Level APC"
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "in" = (
@@ -1834,8 +1823,9 @@
 /turf/open/floor/plasteel/dark,
 /area/science/explab)
 "iK" = (
-/obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/stripes/box,
+/obj/machinery/atmospherics/pipe/simple/multiz,
+/turf/open/floor/plating,
 /area/engineering/atmos)
 "iL" = (
 /obj/structure/chair/comfy/black{
@@ -1987,6 +1977,9 @@
 	},
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = "47"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/science)
@@ -2431,9 +2424,9 @@
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "ml" = (
-/obj/structure/table,
-/turf/open/floor/plasteel/dark,
-/area/service/chapel/main/monastery)
+/obj/effect/landmark/start/atmospheric_technician,
+/turf/open/floor/plasteel,
+/area/engineering/atmos)
 "mm" = (
 /obj/machinery/power/smes{
 	charge = 5e+006
@@ -2664,11 +2657,11 @@
 /turf/open/floor/plating/airless,
 /area/icemoon/underground/unexplored/rivers)
 "nB" = (
-/obj/machinery/portable_atmospherics/canister/nitrogen,
-/obj/machinery/light{
-	dir = 1
+/obj/machinery/light,
+/obj/machinery/atmospherics/pipe/layer_manifold{
+	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/plating,
 /area/engineering/atmos)
 "nC" = (
 /obj/structure/chair/sofa/right{
@@ -3163,6 +3156,9 @@
 	},
 /obj/structure/sign/departments/xenobio{
 	pixel_x = 32
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/science)
@@ -3788,7 +3784,7 @@
 /turf/open/floor/plasteel/white,
 /area/mine/living_quarters)
 "sN" = (
-/obj/structure/chair/office/dark{
+/obj/structure/chair/wood/normal{
 	dir = 4
 	},
 /turf/open/floor/carpet,
@@ -3897,7 +3893,7 @@
 /obj/structure/railing/corner{
 	dir = 8
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating,
 /area/engineering/atmos)
 "tm" = (
 /obj/machinery/computer/camera_advanced/xenobio{
@@ -4174,9 +4170,9 @@
 /turf/open/floor/plasteel,
 /area/mine/production)
 "uH" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/open/floor/plasteel,
-/area/engineering/atmos)
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/plating/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors)
 "uI" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
@@ -4598,6 +4594,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/structure/cable{
 	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/science)
@@ -5528,6 +5527,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/science)
@@ -6726,7 +6728,8 @@
 	name = "Atmospheric Pits";
 	req_access_txt = "24"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
 /area/engineering/atmos)
 "GL" = (
 /obj/structure/fluff/broken_flooring{
@@ -6872,9 +6875,10 @@
 /turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "Hq" = (
-/obj/machinery/portable_atmospherics/canister/air,
-/turf/open/floor/plasteel,
-/area/engineering/atmos)
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/turf/open/floor/carpet,
+/area/service/chapel/main/monastery)
 "Hw" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/open/floor/plating,
@@ -7491,6 +7495,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating,
 /area/maintenance/department/science)
 "JX" = (
@@ -7746,6 +7753,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/science)
@@ -8483,9 +8493,8 @@
 /turf/open/floor/plasteel/dark,
 /area/service/chapel/main/monastery)
 "OF" = (
-/obj/item/polepack,
-/turf/open/floor/wood,
-/area/maintenance/bar)
+/turf/open/floor/plating/ice/icemoon,
+/area/icemoon/surface/outdoors)
 "OG" = (
 /obj/structure/railing{
 	dir = 8
@@ -8728,6 +8737,7 @@
 	dir = 5
 	},
 /obj/structure/table/wood,
+/obj/item/storage/book/bible,
 /turf/open/floor/carpet,
 /area/service/chapel/main/monastery)
 "PV" = (
@@ -8883,11 +8893,9 @@
 /turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "QR" = (
-/obj/structure/table,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/turf/open/floor/plasteel,
-/area/engineering/atmos)
+/obj/structure/flora/tree/pine,
+/turf/open/floor/plating/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors)
 "QS" = (
 /obj/machinery/atmospherics/components/unary/tank/air{
 	dir = 8
@@ -9003,10 +9011,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/mixing)
-"RC" = (
-/obj/effect/landmark/start/atmospheric_technician,
-/turf/open/floor/plasteel,
-/area/engineering/atmos)
 "RD" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -9466,7 +9470,9 @@
 /turf/open/floor/plasteel/dark,
 /area/service/chapel/main/monastery)
 "Uf" = (
-/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
 "Uh" = (
@@ -10253,6 +10259,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel,
 /area/science)
@@ -25973,7 +25982,7 @@ jA
 JV
 JV
 Ll
-cO
+lQ
 wD
 lQ
 lQ
@@ -41380,7 +41389,7 @@ lL
 gH
 Rx
 lL
-OF
+eo
 NH
 dD
 YC
@@ -59325,8 +59334,8 @@ UN
 UN
 UN
 UN
-uH
-Hq
+jm
+jm
 jm
 jm
 jm
@@ -59582,12 +59591,12 @@ vI
 UN
 Na
 UN
-hj
-Hq
+Uf
 jm
 jm
 jm
-UN
+jm
+cO
 nk
 qw
 UN
@@ -59844,7 +59853,7 @@ jm
 jm
 jm
 jm
-UN
+cO
 sU
 kt
 UN
@@ -60353,13 +60362,13 @@ vI
 vI
 vI
 ng
-QR
 jm
 jm
 jm
 jm
 jm
 jm
+iK
 cU
 ng
 vI
@@ -60610,14 +60619,14 @@ hS
 DN
 vI
 UN
-bn
-jm
-RC
+Uf
 jm
 jm
 jm
 jm
-vC
+jm
+jm
+nB
 UN
 vI
 hS
@@ -60874,7 +60883,7 @@ jm
 jm
 jm
 jm
-jm
+EF
 ng
 vI
 hS
@@ -61381,7 +61390,7 @@ VE
 VE
 vI
 ng
-Uf
+jm
 jm
 jm
 jm
@@ -61638,13 +61647,13 @@ VE
 hS
 vI
 UN
-nB
 jm
 jm
 jm
 jm
 jm
 jm
+ml
 vC
 UN
 vI
@@ -61895,7 +61904,7 @@ VE
 VE
 vI
 ng
-iK
+jm
 jm
 jm
 jm
@@ -62274,7 +62283,7 @@ Hf
 Hf
 kS
 DS
-iN
+Hq
 JO
 mg
 hG
@@ -63295,7 +63304,7 @@ VE
 kS
 kS
 fU
-ml
+Gc
 ti
 no
 Jz
@@ -63565,7 +63574,7 @@ WB
 hS
 hS
 hS
-VE
+Dc
 ah
 ah
 ah
@@ -63816,13 +63825,13 @@ Hf
 PM
 aJ
 hS
+uH
 hS
 hS
-hS
-hS
+QR
 PA
-VE
-VE
+Dc
+Dc
 ah
 ah
 ah
@@ -64076,7 +64085,7 @@ hS
 hS
 WB
 hS
-hS
+uH
 hS
 VE
 ah
@@ -64329,11 +64338,11 @@ xc
 Et
 NQ
 aJ
+uH
 hS
-hS
-hS
-hS
-hS
+OF
+OF
+OF
 hS
 VE
 VE
@@ -64589,10 +64598,10 @@ aJ
 hS
 FA
 hS
+OF
 hS
-hS
-VE
-VE
+uH
+Dc
 VE
 ah
 ah
@@ -64845,11 +64854,11 @@ PM
 kS
 hS
 hS
-hS
+QR
 hS
 FA
-VE
-VE
+Dc
+Dc
 VE
 ah
 ah

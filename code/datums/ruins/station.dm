@@ -55,6 +55,11 @@
 	suffix = "Box/Engine/budget.dmm"
 	name = "Box P.A.C.M.A.N"
 
+/datum/map_template/ruin/station/box/engine/diysm
+	id = "engine_sm_diy"
+	suffix = "Box/Engine/engine_sm_diy.dmm"
+	name = "Box DIY SM"
+
 // Lavaland
 	// Mining Base
 /datum/map_template/ruin/station/lavaland/mining_base
