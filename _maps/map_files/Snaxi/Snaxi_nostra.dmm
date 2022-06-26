@@ -5429,7 +5429,7 @@
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
 "bum" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 8
 	},
 /turf/open/openspace/icemoon,
@@ -26789,7 +26789,7 @@
 /turf/open/floor/plasteel/dark,
 /area/security/office)
 "lZb" = (
-/obj/structure/fluff/railing/corner{
+/obj/structure/railing/corner{
 	dir = 8
 	},
 /turf/open/openspace/icemoon,
@@ -35223,7 +35223,7 @@
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
 "qyE" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 9
 	},
 /turf/open/openspace/icemoon,
@@ -35856,7 +35856,7 @@
 /turf/open/floor/carpet,
 /area/service/chapel/office)
 "qPM" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 4
 	},
 /turf/open/openspace/icemoon,
@@ -36617,7 +36617,7 @@
 /turf/open/floor/plating,
 /area/maintenance/bar)
 "rka" = (
-/obj/structure/fluff/railing,
+/obj/structure/railing,
 /turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "rkd" = (
@@ -39459,7 +39459,7 @@
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "sTq" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 10
 	},
 /turf/open/openspace/icemoon,
@@ -41623,7 +41623,7 @@
 /turf/open/floor/plasteel,
 /area/science/robotics/mechbay)
 "tWo" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/openspace/icemoon,
@@ -46348,7 +46348,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
 "wrI" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 5
 	},
 /turf/open/openspace/icemoon,
@@ -46377,7 +46377,7 @@
 /turf/open/floor/plasteel/dark,
 /area/engineering/atmospherics_engine)
 "wsT" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 6
 	},
 /turf/open/openspace/icemoon,

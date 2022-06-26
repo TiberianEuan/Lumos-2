@@ -223,8 +223,8 @@
 			L.Move(landing_turf, vehicle_target.dir)
 			passtable_off(L, VEHICLE_TRAIT)
 			V.pass_flags &= ~PASSTABLE
-		if((locate(/obj/structure/table) in V.loc.contents) || (locate(/obj/structure/fluff/railing) in V.loc.contents))
-			if(locate(/obj/structure/fluff/railing) in V.loc.contents)
+		if((locate(/obj/structure/table) in V.loc.contents) || (locate(/obj/structure/railing) in V.loc.contents))
+			if(locate(/obj/structure/railing) in V.loc.contents)
 				L.client.give_award(/datum/award/achievement/misc/tram_surfer, L)
 			V.grinding = TRUE
 			V.icon_state = "[V.board_icon]-grind"
