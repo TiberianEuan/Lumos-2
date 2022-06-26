@@ -10756,7 +10756,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue/fulltile,
-/turf/open/floor/wood,
+/turf/open/floor/plasteel/dark,
 /area/command/heads_quarters/hop)
 "aCW" = (
 /obj/structure/cable{
@@ -14493,16 +14493,16 @@
 	name = "disposal conveyor"
 	},
 /obj/effect/turf_decal/stripes/line,
-/obj/structure/fluff/railing,
+/obj/structure/railing,
 /turf/open/floor/plasteel,
 /area/maintenance/disposal)
 "aMG" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/structure/fluff/railing,
+/obj/structure/railing,
 /turf/open/floor/plasteel,
 /area/maintenance/disposal)
 "aMH" = (
-/obj/structure/fluff/railing/corner{
+/obj/structure/railing/corner{
 	dir = 8
 	},
 /obj/effect/turf_decal/stripes/corner{
@@ -14975,7 +14975,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -15425,7 +15425,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -15776,7 +15776,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -15797,7 +15797,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/oil/slippery,
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -16306,7 +16306,7 @@
 	dir = 1
 	},
 /obj/structure/closet/crate,
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -16319,7 +16319,7 @@
 	dir = 4
 	},
 /obj/effect/landmark/xeno_spawn,
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -16332,7 +16332,7 @@
 	dir = 4
 	},
 /obj/item/trash/can,
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -16345,7 +16345,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 10
 	},
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -16359,7 +16359,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/obj/structure/fluff/railing/corner{
+/obj/structure/railing/corner{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -16675,7 +16675,7 @@
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
 "aSm" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plating,
@@ -16690,7 +16690,7 @@
 	icon_state = "0-2"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plating,
@@ -52504,6 +52504,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/turf_decal/tile/blue/fulltile,
+/obj/machinery/door/firedoor,
 /turf/open/floor/plasteel/dark,
 /area/command/bridge)
 "mzl" = (

@@ -9544,7 +9544,7 @@
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
 "axN" = (
-/obj/structure/fluff/railing,
+/obj/structure/railing,
 /turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "ayk" = (
@@ -9648,7 +9648,7 @@
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "ayC" = (
-/obj/structure/fluff/railing/corner{
+/obj/structure/railing/corner{
 	dir = 8
 	},
 /turf/open/openspace/icemoon,
@@ -9789,7 +9789,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "azH" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 4
 	},
 /turf/open/openspace/icemoon,
@@ -10026,7 +10026,7 @@
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "aCr" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 8
 	},
 /turf/open/openspace/icemoon,
@@ -10254,7 +10254,7 @@
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
 "aEG" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 10
 	},
 /turf/open/openspace/icemoon,
@@ -10425,7 +10425,7 @@
 /turf/open/floor/circuit,
 /area/science/robotics/mechbay)
 "aHK" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 6
 	},
 /turf/open/openspace/icemoon,
@@ -15918,7 +15918,7 @@
 /turf/open/floor/pod/dark,
 /area/maintenance/starboard)
 "cVa" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 9
 	},
 /turf/open/openspace/icemoon,
@@ -16897,7 +16897,7 @@
 /turf/open/floor/plasteel,
 /area/cargo/storage)
 "dDC" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/openspace/icemoon,
@@ -16969,7 +16969,7 @@
 /turf/closed/wall,
 /area/cargo/qm)
 "dFJ" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 5
 	},
 /turf/open/openspace/icemoon,
@@ -28446,7 +28446,7 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "lgg" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 5
 	},
 /turf/open/openspace/icemoon,
@@ -29471,7 +29471,7 @@
 /turf/open/floor/wood,
 /area/hallway/secondary/exit/departure_lounge)
 "lQJ" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 9
 	},
 /turf/open/openspace/icemoon,
@@ -33894,7 +33894,7 @@
 /turf/open/floor/wood,
 /area/hallway/primary/central)
 "oGZ" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 6
 	},
 /turf/open/openspace/icemoon,
@@ -37696,7 +37696,7 @@
 /turf/open/floor/engine,
 /area/engineering/main)
 "qZb" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 10
 	},
 /turf/open/openspace/icemoon,
@@ -40478,7 +40478,7 @@
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "sTq" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/openspace/icemoon,
